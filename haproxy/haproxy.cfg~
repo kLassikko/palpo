@@ -17,12 +17,12 @@ frontend http-in
 
 backend frontend
 mode http
-server front 172.31.31.75:81
+server front 172.31.30.237:81
 
 backend logstash
 mode http
-server logstash 172.31.31.75:93
+server logstash 172.31.30.237:93
 
 backend mongodb
 mode http
-server mongo 172.31.31.75:92
+server mongo 172.31.30.237:92

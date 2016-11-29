@@ -17,7 +17,7 @@ output {
   mongodb {
     collection => "orders"
     database => "ordersDB"
-    uri => "mongodb://172.31.31.75:91"
+    uri => "mongodb://172.31.30.237:91"
   }
   stdout { codec => rubydebug }
 }
